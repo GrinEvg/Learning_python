@@ -12,3 +12,5 @@ total = c % 5
 print(total)
 from math import ceil, floor
 print('обычное округление', round(e),'\n', 'округление вверх', ceil(e), '\n', 'округление вниз', floor(e))
+comp = 1 + 3j # комплексное число
+print( comp.real, comp.imag) # выделение реальной(.real) и комплексной (.imag) частей
